@@ -1,0 +1,95 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- total_patients_in_country
+- greet
+- corona_precautions
+- corona_spread
+- corona_treatment
+- corona_recovery_time
+- corona_last_on_surface
+- corona_official_name
+- happen_after_infected
+- corona_symptoms
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- what_is_corona
+- where_did_it_come_from
+entities:
+- country
+slots:
+  country:
+    type: unfeaturized
+  total_patients:
+    type: unfeaturized
+    auto_fill: false
+responses:
+  utter_corona_precautions:
+  - text: "STAY HOME SAVE LIVES\n- STAY home\n- KEEP a safe distance\n- WASH hands\
+      \ often\n- COVER your cough\n- SICK call the helpline\n"
+  utter_corona_spread:
+  - text: "Viruses cannot travel on radio waves/mobile networks.COVID-19 is spreading\
+      \ in many countries that do not have 5G mobile networks.\n COVID-19 is spread\
+      \ through respiratoatry droplets when an infected person coughs, sneezes or\
+      \ speaks. People can also be infected by touching a contaminated surface and\
+      \ then their eyes, mouth or nose."
+  utter_corona_recovery_time:
+  - text: "Using available preliminary data, the median time from onset to clinical\
+      \ recovery for mild cases is approximately 2 weeks and is 3-6 weeks for patients\
+      \ with severe or critical disease. \n- According to WHO"
+  utter_wrong_country:
+  - text: the place you provide is not available
+  utter_last_on_surface:
+  - text: It is not certain how long the virus that causes COVID-19 survives on surfaces,
+      but it seems to behave like other coronaviruses. Studies suggest that coronaviruses
+      (including preliminary information on the COVID-19 virus) may persist on surfaces
+      for a few hours or up to several days
+  utter_corona_official_name:
+  - text: ICTV announced “severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)”
+      as the name of the new virus on 11 February 2020.
+  utter_happen_after_infected:
+  - text: People with COVID-19 generally develop signs and symptoms, including mild
+      respiratory symptoms and fever, on an average of 5-6 days after infection (mean
+      incubation period 5-6 days, range 1-14 days). Most people infected with COVID-19
+      virus have mild disease and recover.
+  utter_corona_symptoms:
+  - text: "<b>Common symptoms:</b><br>  -fever. <br> -tiredness. <br> -dry cough.\
+      \ <br> <b>Some people may experience: </b><br> -aches and pains. <br> -nasal\
+      \ congestion. <br> -runny nose. <br> \n -sore throat. <br>\n -diarrhoea."
+  utter_default:
+  - text: Sorry I don't understand could you please rephrase the sentence.
+  - text: Sorry I am not trained with this intention. But don't worry the more you
+      talk the more accurate I will be.
+  utter_corona_treatment:
+  - text: No pharmaceutical products have yet been shown to be safe and effective
+      for the treatment of COVID-19. However, a number of medicines have been suggested
+      as potential investigational therapies, many of which are now being or will
+      soon be studied in clinical trials, including the SOLIDARITY trial co-sponsored
+      by WHO and participating countries.
+  utter_greet:
+  - text: Hi there !! How may I help you today ?
+  utter_what_is_corona:
+  - text: Coronaviruses are a family of viruses that range from the common cold to MERS coronavirus, which is Middle East Respiratory Syndrome coronavirus and SARs, Severe acute respiratory syndrom coronavirus
+  utter_where_come_from:
+  - text: At the end of December, public health officials from China informed the World Health Organization that they had a problem an unknown, new virus was causing pneumonia-like illness in the city of Wuhan. They quickly determined that it was a coronavirus and that it was rapidly spreading through and outside of Wuhan.
+  utter_iamabot:
+  - text: I am Friday. One Touch Technology made me to provide information about corona.
+actions:
+- utter_iamabot
+- utter_default
+- utter_greet
+- utter_corona_precautions
+- utter_corona_recovery_time
+- utter_corona_spread
+- utter_wrong_country
+- utter_last_on_surface
+- utter_happen_after_infected
+- utter_corona_symptoms
+- utter_corona_official_name
+- utter_corona_treatment
+- action_greet_user
+forms:
+- corona_status
