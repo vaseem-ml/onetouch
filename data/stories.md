@@ -1,6 +1,7 @@
 ## story_0
 * chitchat
   - respond_chitchat
+  
 ## happy path
 * greet
   - utter_greet
