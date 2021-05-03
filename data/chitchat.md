@@ -1,5 +1,7 @@
-## intent:chitchat/Greeting
+## intent:chitchat
 - Hi
+
+## intent:chitchat/Greeting
 - Hey
 - Hi bot
 - Hey bot
@@ -58,13 +60,10 @@
 - hey dude
 - hello it is me again
 - what up
-- hi there
-- hi
 - jop
 - hi friend
 - hi there it's me
 - good evening
-- good morning
 - good afternoon
 
 ## intent:chitchat/whyLocation
@@ -95,7 +94,6 @@
 - thanks
 - thanks!
 - Cool. Thanks
-- thanks
 - thanks this is great news
 - thank you
 - great thanks
@@ -135,7 +133,6 @@
 - how old were you on your last birthday?
 - what age are you
 - how old will you be this year?
-- What is your age?
 - What year were you born?
 - How long have you been around?
 - How long have you been alive?
@@ -145,7 +142,7 @@
 - How many years have you been alive?
 - How long have you occupied the earth?
 
-## intent: chitchat/ask_wherefrom
+## intent:chitchat/ask_wherefrom
 - where do you live
 - where are you from?
 - So where are you from
@@ -166,13 +163,11 @@
 - where are your parents from?
 - where did you spend your youth?
 - where did you come from?
-- Where were you born?
 - Where do you consider home?
 - What city do you claim to for your birth?
 - What citizenship do you lay claim to?
 - What is your heritage?
 - What is your birthplace?
-- Where did you grow up?
 - You were conceived in what location?
 - What is your root?
 - What is your origin?
@@ -230,7 +225,6 @@
 - how are you doing today my sweet friend
 - how are you doing?
 - how are u
-- How are you?
 
 ## intent:chitchat/help
 - What can you do?
@@ -261,7 +255,6 @@
 - ok i guess you can't help me
 - that's not what i want
 - ok, but that doesnt help me
-- this conversation is not really helpful
 - this conversation is not really helpful
 - I think you cant help me
 - hm i don't think you can do what i want
@@ -338,12 +331,12 @@
 - just answer my question
 
 ## intent:chitchat/youAreBad
--  You are bad
--  You are not good
--  you are very bad
--  You're bad
--  You're not good
--  you're very bad
+- You are bad
+- You are not good
+- you are very bad
+- You're bad
+- You're not good
+- you're very bad
 
 ## intent:chitchat/Beautiful
 - you're cute
@@ -419,38 +412,35 @@
 - Who's your owner?
 
 ## intent:chitchat/joke
--  Tell me a joke
--  joke
+- Tell me a joke
+- joke
 
 ## intent:chitchat/residence
--  where do you live
--  in which city do you live
--  your residence
--  your house
--  your home
--  your hometown?
--  what is your hometown
--  is it your hometown
--  where is your hometown
--  tell me about your city
--  what is your city
--  what is your residence
--  what is your town
--  what's your city
--  what's your home
--  where is your home
--  where is your residence
--  where's your home
--  where's your hometown
--  where's your house
--  where you live
--  your city
--  your town
--  What is your hometown?
--  where do you live?
-
-
-
+- where do you live
+- in which city do you live
+- your residence
+- your house
+- your home
+- your hometown?
+- what is your hometown
+- is it your hometown
+- where is your hometown
+- tell me about your city
+- what is your city
+- what is your residence
+- what is your town
+- what's your city
+- what's your home
+- where is your home
+- where is your residence
+- where's your home
+- where's your hometown
+- where's your house
+- where you live
+- your city
+- your town
+- What is your hometown?
+- where do you live?
 
 ## intent:chitchat/Boring
 - you are boring
@@ -473,8 +463,6 @@
 - You look bored
 - Your answers are terribly boring
 - I was bored with your speech
-
-
 
 ## intent:chitchat/outOfScope
 - someone call the police i think the bot died
@@ -504,25 +492,19 @@
 - ohh! i am confused.
 - what's the weather today
 - please help with my ice cream it's dripping
-- no wait go back i want a dripping ice cream but a cone that catches it so you 
+- no wait go back i want a dripping ice cream but a cone that catches it so you
 - i want a non dripping ice cream
-- someone call the police i think the bot died
-- you're a loser lmao
-- i don't care!!!!
-- i do not care how are you
 - again?
 - oh wait i gave you my work email address can i change it?
-- hang on let me find it
 - stop it, i do not care!!!
 - how come?
 - did i break you
 - I don't wanna tell the name of my company
--  that link doesn't work!
+- that link doesn't work!
 - you already have that
 - this is a really frustrating experience
 - silly bot
-- you are a stupid bot
--  i hate you
+- i hate you
 - Can I ask you questions first?
 - is it a wasteland full of broken robot parts?
 - i can't deal with your request
@@ -533,7 +515,6 @@
 - you're rather dull
 - personal or work?
 - are you using Rasa Core and NLU ?
-- tell me a joke
 - what else?
 - I already told you! I'm a shitmuncher
 - I'm a shitmuncher
@@ -550,19 +531,14 @@
 - and your REST API doesn't work
 - i told you already
 - better than you
-- oh my god, not again!
 - you are a badass bot!
 - why do you need that?
 - is that any of your business
 - can you help me with your docs?
 - i immediately need help with implementing the coolest bot you can imagine
 - can you help me with your docs
-- can you tell me how to build a bot?
-- can you learn from our conversation?
-- common, just try
 - hey, I contacted you a couple of days ago but didn't get any response, any news?
 - please hurry, i have deadline in two weeks to deliver the bot it is for very big company
-- you are annoying
 - Do I have to accept?
 - Is Rasa really smart?
 - kannst du auch deutsch?
@@ -570,17 +546,13 @@
 - it's a pity
 - i want more of you in my life!
 - the one that is better than you
-- you suck
-- bots are bad
-- i dont like bots
 - do you have a phone number?
 - where do you live?
 - how are akela's cats doing?
 - but I just told you that :(
 - Why don’t you answer?
 - But you're an english site :(
-- can you help me to build a bot 
-
+- can you help me to build a bot
 
 ## intent:chitchat/Bye
 - goodbye
